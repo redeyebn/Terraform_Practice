@@ -6,4 +6,5 @@ module "Demo" {
     subnet_id_value = "subnet-0978cb5044374db7e"
     tag_value_inst1 = "Demo_Instance"
     bucket = "bucket-lb-naik"
+    dynamo_db_table = "state_lock"
 }

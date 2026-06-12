@@ -17,3 +17,7 @@ variable "tag_value_inst1" {
 variable "bucket" {
   description = "This the the demo bucket to store state file."
 }
+
+variable "dynamo_db_table" {
+  description = "This is for dynamoDB for state locking."
+}
